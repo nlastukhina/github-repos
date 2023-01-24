@@ -1,0 +1,25 @@
+.homepage {
+  padding: 0 var(--page-inline-padding);
+}
+
+@media (max-width: 743px) {
+  .homepage {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 744px) {
+  .homepage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .homepage {
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 820px;
+  }
+}

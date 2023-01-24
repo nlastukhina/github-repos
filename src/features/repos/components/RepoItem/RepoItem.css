@@ -1,0 +1,180 @@
+.repo {
+  cursor: pointer;
+  width: 100%;
+}
+
+.repo.repo-extended {
+  cursor: default;
+}
+
+.repo-company {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 743px) {
+  .repo-company {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-company {
+    font-size: 16px;
+  }
+}
+
+.repo-title {
+  text-transform: uppercase;
+  color: var(--constant-accent);
+  font-family: "Rubik", sans-serif;
+  word-break: break-word;
+}
+
+@media (max-width: 743px) {
+  .repo-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-title {
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .repo-title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+.repo-extended .repo-title {
+  color: var(--foreground-primary);
+}
+
+@media (max-width: 743px) {
+  .repo-extended .repo-title {
+    margin-bottom: 12px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-extended .repo-title {
+    margin-bottom: 18px;
+    font-size: 40px;
+    line-height: 47px;
+  }
+}
+
+.repo-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px;
+  word-break: break-word;
+  color: var(--foreground-primary);
+}
+
+@media (max-width: 743px) {
+  .repo-description {
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-description {
+    margin-bottom: 12px;
+  }
+}
+
+.repo-extended .repo-description {
+  -webkit-line-clamp: initial;
+}
+
+.repo-link-wrap {
+  display: flex;
+  align-items: center;
+  margin: 13px 0;
+}
+
+@media (max-width: 743px) {
+  .repo-link-wrap {
+    margin: 13px 0;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-link-wrap {
+    margin: 24px 0;
+  }
+}
+
+.repo-link {
+  margin-left: 5px;
+  color: var(--constant-accent);
+  word-break: break-word;
+}
+
+.repo-topic-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px 0;
+}
+
+.repo-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 4px 8px;
+  background: var(--constant-accent);
+  color: var(--constant-white);
+}
+
+@media (max-width: 743px) {
+  .repo-topic {
+    margin: 0 4px 4px 0;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-topic {
+    margin: 0 8px 8px 0;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+.stats {
+  display: flex;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+}
+
+.stats-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.stats-item-title {
+  margin-left: 6px;
+}
+
+.repo-skeleton .repo-title {
+  width: 70%;
+}
+
+.repo-skeleton .stats-item-title {
+  width: 45px;
+}

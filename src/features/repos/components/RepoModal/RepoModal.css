@@ -1,0 +1,52 @@
+.repo-modal {
+  position: relative;
+  padding: 0 var(--page-inline-padding);
+}
+
+@media (max-width: 743px) {
+  .repo-modal {
+    padding-top: 58px;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-modal {
+    padding-top: 130px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .repo-modal {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.repo-modal-close {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+@media (max-width: 743px) {
+  .repo-modal-close {
+    top: 16px;
+    right: 0;
+  }
+}
+
+@media (min-width: 744px) {
+  .repo-modal-close {
+    display: flex;
+    top: 50px;
+    right: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .repo-modal-close {
+    top: 21px;
+    right: 18px;
+  }
+}
